@@ -2,18 +2,13 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 	<title>Game</title>
-	<link rel="stylesheet" type="text/css" href="css/media.css">
 </head>
-<body>
-	<div class="wrap">
-		<canvas id="gameCanvas" width="470" height="450" style="float: left;">
+<body style="width: 470px; height: 100vh; margin: 0 auto; display: table;">
+	<div class="wrap" style="display: table-cell; height: 100%; vertical-align: middle;">
+		<canvas id="gameCanvas" width="470" height="450" style="background-color: white;">
 		</canvas>
-		<p style="float: right; font-family: arial; font-weight: bold;">
-			Человек хочет выйти на улицу в разгар короновирусной инфекции!<br>
-			Поймайте самоизолирующегося, оградив все клетки по соседству с ним.<br>
-			Не дайте ему дойти до края, иначе он сбежит.
-		</p>
 	</div>
 	<script src="js/game.js"></script>
 </body>
