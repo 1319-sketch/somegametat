@@ -75,9 +75,9 @@ function draw() {
 		ctx.fillStyle = "#332fed";
 		ctx.font = "bold 25px Arial";
 		ctx.fillText("Кызганыч, әмма ул качып котыла", 10, 50);
-		ctx.fillText("алды, һәм Яшел Үзәндә", 10, 100);
+		ctx.fillText("алды, һәм Яшел Үзәндә", 60, 100);
 		ctx.fillText("кагыйдә бозучылар саны тагын", 10, 150);
-		ctx.fillText("бер кешегә артты.", 10, 200);
+		ctx.fillText("бер кешегә артты.", 90, 200);
 
 		ctx.font = "35px Arial";
 		if (isHovered) ctx.fillStyle = ('#8987fa');
