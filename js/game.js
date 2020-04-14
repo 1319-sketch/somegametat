@@ -74,9 +74,9 @@ function draw() {
 
 		ctx.fillStyle = "#332fed";
 		ctx.font = "bold 25px Arial";
-		ctx.fillText("Кызганыч, әмма ул качып котыла алды,", 10, 100);
-		ctx.fillText("һәм Яшел Үзәндә кагыйдә бозучылар", 10, 150);
-		ctx.fillText("саны тагын бер кешегә артты.", 10, 200);
+		ctx.fillText("Кызганыч, әмма ул качып котыла", 10, 100);
+		ctx.fillText("алды, һәм Яшел Үзәндә кагыйдә", 10, 150);
+		ctx.fillText("бозучылар саны тагын бер кешегә артты.", 10, 200);
 
 		ctx.font = "35px Arial";
 		if (isHovered) ctx.fillStyle = ('#8987fa');
@@ -95,9 +95,8 @@ function draw() {
 
 		ctx.fillStyle = "#332fed";
 		ctx.font = "bold 25px Arial";
-		ctx.fillText("Котлыйбыз! Яшел Үзәндә бер", 30, 100);
-		//ctx.fillText("одним нарушителем", 60, 100);
-		ctx.fillText("кагыйдә бозучыга кимеде!", 40, 150);
+		ctx.fillText("Котлыйбыз! Яшел Үзәндә бер", 35, 100);
+		ctx.fillText("кагыйдә бозучыга кимеде!", 50, 150);
 
 		ctx.font = "35px Arial";
 		if (isHovered) ctx.fillStyle = ('#8987fa');
@@ -187,7 +186,7 @@ canv.addEventListener('mousedown', function(e) {
 canv.addEventListener('mousedown', function(e) {
 	var x = e.offsetX;
 	var y = e.offsetY;
-	if (gameState > 0 && x >= 30 && x <= 385 && y >= 260 && y <= 310) {
+	if (gameState > 0 && x >= 45 && x <= 385 && y >= 260 && y <= 310) {
 		reloadGame();
 	} 
 });
