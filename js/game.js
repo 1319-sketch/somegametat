@@ -74,14 +74,14 @@ function draw() {
 
 		ctx.fillStyle = "#332fed";
 		ctx.font = "bold 25px Arial";
-		ctx.fillText("Увы, ему удалось улизнуть,", 30, 100);
-		ctx.fillText("и одним нарушителем", 50, 150);
-		ctx.fillText("в Зеленодольске стало больше.", 10, 200);
+		ctx.fillText("Кызганыч, әмма ул качып котыла алды,", 30, 100);
+		ctx.fillText("һәм Яшел Үзәндә кагыйдә бозучылар", 50, 150);
+		ctx.fillText("саны тагын бер кешегә артты.", 10, 200);
 
 		ctx.font = "35px Arial";
 		if (isHovered) ctx.fillStyle = ('#8987fa');
 		else ctx.fillStyle = ('#332fed');
-		ctx.fillText("Может повторите?", 50, 300);
+		ctx.fillText("Бәлки кабатларсыз?", 50, 300);
 		ctx.fillStyle = '#9ACD32';
 
 		var retry = new Path2D();
@@ -95,14 +95,14 @@ function draw() {
 
 		ctx.fillStyle = "#332fed";
 		ctx.font = "bold 25px Arial";
-		ctx.fillText("Поздравляем, одним нарушителем", 10, 100);
+		ctx.fillText("Котлыйбыз! Яшел Үзәндә бер", 10, 100);
 		//ctx.fillText("одним нарушителем", 60, 100);
-		ctx.fillText("в Зеленодольске стало меньше!", 20, 150);
+		ctx.fillText("кагыйдә бозучыга кимеде!!", 20, 150);
 
 		ctx.font = "35px Arial";
 		if (isHovered) ctx.fillStyle = ('#8987fa');
 		else ctx.fillStyle = ('#332fed');
-		ctx.fillText("Может повторите?", 50, 300);
+		ctx.fillText("Бәлки кабатларсыз?", 50, 300);
 		ctx.fillStyle = '#9ACD32';
 
 		var retry = new Path2D();
