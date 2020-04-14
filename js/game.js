@@ -74,8 +74,8 @@ function draw() {
 
 		ctx.fillStyle = "#332fed";
 		ctx.font = "bold 25px Arial";
-		ctx.fillText("Кызганыч, әмма ул качып котыла алды,", 30, 100);
-		ctx.fillText("һәм Яшел Үзәндә кагыйдә бозучылар", 50, 150);
+		ctx.fillText("Кызганыч, әмма ул качып котыла алды,", 10, 100);
+		ctx.fillText("һәм Яшел Үзәндә кагыйдә бозучылар", 10, 150);
 		ctx.fillText("саны тагын бер кешегә артты.", 10, 200);
 
 		ctx.font = "35px Arial";
@@ -97,7 +97,7 @@ function draw() {
 		ctx.font = "bold 25px Arial";
 		ctx.fillText("Котлыйбыз! Яшел Үзәндә бер", 10, 100);
 		//ctx.fillText("одним нарушителем", 60, 100);
-		ctx.fillText("кагыйдә бозучыга кимеде!!", 20, 150);
+		ctx.fillText("кагыйдә бозучыга кимеде!", 20, 150);
 
 		ctx.font = "35px Arial";
 		if (isHovered) ctx.fillStyle = ('#8987fa');
